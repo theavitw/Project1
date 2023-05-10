@@ -1,4 +1,3 @@
-
 .servicesMainDiv {
     padding: 3% 18%;
     text-align: left;
@@ -8046,9 +8045,11 @@ button.bg-dark:hover {
         align-self: stretch !important
     }
 }
-.collaborate{
+
+.collaborate {
     padding: 20px;
 }
+
 @media (min-width: 768px) {
     .flex-md-row {
         flex-direction: row !important
@@ -8187,3 +8188,22 @@ button.bg-dark:hover {
     }
 }
 
+
+
+.serviceImage {
+    padding: 15px;
+}
+
+
+
+
+.serviceImage {
+    position: relative;
+    transform: translateY(150px);
+    transition: 0.5s all ease;
+}
+
+.serviceImage.active {
+    transform: translateY(0);
+    opacity: 1;
+}
